@@ -48,7 +48,9 @@ img{
     border: solid;
     
 }
-   
+iframe{
+margin-left: 5%;
+}   
 
 ul {                        /*Navigator start*/
   
