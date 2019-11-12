@@ -2,7 +2,7 @@ body{
     height: 100%;
     width: auto;
     background-color: #ddd;
-    background-attachment: fixed;
+ 
 }
 header{
     font-family: verdana;
@@ -82,4 +82,16 @@ a:hover:not(.active) {
   background-color:#bbb;
 
 
+}
+@media only screen and (max-width: 600px) {
+  img{
+    width: 40%;
+    height: auto;
+    margin-left: 2%;
+    border: solid;
+    }
+  li {
+  float: left;
+   
+}
 }
