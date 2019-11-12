@@ -82,7 +82,7 @@ a:hover:not(.active) {
 }
 
 .active {
-  background-color:#bbb;
+  background-color:#999;
 
 
 }
