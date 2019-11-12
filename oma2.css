@@ -12,8 +12,10 @@ table {
   font-family: arial, sans-serif;
    float: left;
     padding-left: 5%;
+    height: auto;
+    width: 70%;
 
-  width: 80%;
+  
 }
 h3{
     text-align: center;
