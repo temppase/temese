@@ -22,12 +22,12 @@ h3{
 }
 h4{
     text-align: center;
-    margin-left: 4%;
-    margin-right: 4%;
-}
-p{
     margin-left: 8%;
     margin-right: 8%;
+}
+p{
+    margin-left: 15%;
+    margin-right: 15%;
     
 }
 hr{
@@ -100,5 +100,15 @@ a:hover:not(.active) {
   li {
   float: left;
    
+}
+    p{
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+    h4{
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 }
