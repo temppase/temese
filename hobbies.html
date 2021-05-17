@@ -1,0 +1,135 @@
+ <!DOCTYPE html>
+
+<html lang="fi">
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Web tutorial on my page">
+        <meta name="author" content="Teemu Sekki">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            var currentYear = (new Date).getFullYear();
+            $(document).ready(function() {
+            $("#year").text( (new Date).getFullYear() );
+            });
+          </script>
+
+        <title>Hobbies</title>
+    </head>
+        
+    <body>
+        <main> 
+            <div class="jumbotron jumbotron-fluid bg-dark text-muted text-center" style="margin-bottom:0">
+                <h2>
+                    Hobbies
+                </h2>
+
+
+            </div>                        
+
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" href="profile.html">Profile</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="education.html">Education</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="experiense.html">Experience</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" href="hobbies.html">Hobbies</a>
+                      </li>
+                  </ul>
+                </div>  
+            </nav>
+
+
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header text-center" id="headingOne"  style="background-color: #bbc;">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link  text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Music
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body" style="background-color: #bbb;">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, 
+                      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda 
+                      shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+                      cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt 
+                      you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header text-center" id="headingTwo" style="background-color: #bbc;">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link text-dark collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Sports
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body" style="background-color: #bbb;">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, 
+                      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda 
+                      shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+                      cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt 
+                      you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header text-center" id="headingThree"  style="background-color: #bbc;">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link text-dark collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Reading & Movies
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body"  style="background-color: #bbb;">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry 
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, 
+                      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda 
+                      shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+                      cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 
+                      Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt 
+                      you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+           <div class="jumbotron text-center bg-secondary" style="margin-bottom:0">
+                
+            <p>Copyright <span id="year">TEXT</span> Teemu Sekki - All Rights Reserved.</p>
+            <p>Contacts: </p>
+            <p>E-mail: temppase[a]gmail.com</p>
+            <p>Phone: +358 40 467 0196</p>
+        </div>
+        </main>
+    </body>
+</html>
