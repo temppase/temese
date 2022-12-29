@@ -1,4 +1,10 @@
+// Variables
+
 let currentYear = (new Date).getFullYear();
+
+// Functions
+
 $(document).ready(function() {
-$("#year").text( (new Date).getFullYear() );
+    $("#year").text( currentYear );
+    $("#music").load("music.txt");
 });
