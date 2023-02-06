@@ -1,0 +1,39 @@
+.bg-gray{
+    background-color: #aaa;
+}
+.bg-dark-gray{
+    background-color: #bbb;
+}
+.bg-img {
+    background-image: url("../img/telakanava.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-top: 20px;
+}
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+.footer{
+    font-size: x-small;
+    background-color: black;
+    color: antiquewhite;
+}
+.round-c{
+    border-radius: 20px;
+}
+.c-head{
+    background-color: #bbc;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}

@@ -9,6 +9,7 @@
         <meta name="author" content="Teemu Sekki">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -19,23 +20,31 @@
         </title>
     </head>
         
-    <body style="background-color: #aaa;">
+    <body class="bg-gray">
         <main> 
-
-            <div class="jumbotron jumbotron-fluid bg-dark text-secondary text-center" style="margin-bottom:0">
-                <h2>
-                    Welcome to my page
-                </h2>
-                <br>
-                <p>
-                    These are my CV and portfolio pages. Mainly for job search. <br>
-                    
-                </p>
-
-            </div>                        
-            <nav class="navbar navbar-expand-sm bg-dark sticky-top shadow navbar-dark">
-                
-                <a class="navbar-brand" href="index.html"><img class="rounded-circle" alt="logo" src="assets/img/avatar.jpg" style="width:40px;">
+<!-- Header -->
+            <div class="bg-img">
+                <div class="overlay">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 text-center text-white font-weight-bold m-5">
+                            <h2 class="mt-5">
+                                Welcome to my page
+                            </h2>
+                            <br>
+                            <p>
+                                These are my CV and portfolio pages. Mainly for job search. <br>
+                                
+                            </p>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
+  
+<!-- Navbar -->
+            <nav class="navbar navbar-expand-sm bg-dark fixed-top shadow navbar-dark">
+                <a class="navbar-brand" href="index.html"><img class="rounded-circle" alt="logo" src="assets/img/avatar.jpg" style="width:40px">
                      Home
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -58,63 +67,73 @@
                   </ul>
                 </div>  
             </nav>
+            <div class="row mt-5">
+                <div class="col-2"></div>
+                <div class="col-3">
+                    <img src="assets/img/mypict.jpg" class="img-fluid shadow rounded-circle" alt="Picture of me">
+                </div>
+                <div class="col-6 mx-auto">
+                    <div class="col-md-4">
+                        <hr>
+                        <br>
+                        Name: Teemu Sekki <br>
+                        Born: 1980 <br>
+                        Live: Jyväskylä Central Finland<br><hr>
+                        Some recent projects...<br><br>
+                    </div>
+                    <div class="col-ld-4">
+                        <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/ca-solar-panel-maps/">
+                            Solar panel school project Plotly animated maps (still on procces)
+                        </a><br>
+                        <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/SolDat/">
+                            Solar panel school project (still on procces)
+                        </a><br>
+                        <a class="btn btn-dark shadow m-1" href="https://github.com/temppase/synthWow">
+                            Juce synt project (still on procces)
+                        </a><br>
+                        <a class="btn btn-dark shadow m-1" href="https://github.com/temppase/Diary">
+                            Link to diary app repo
+                        </a><br>
+                        <a class="btn btn-dark shadow m-1" href="https://github.com/temppase/Time">
+                            Link to timer app repo
+                        </a>
+                    </div>
 
+                    <hr>
+                </div>
 
-         <br>
-         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-3">
-                <img src="assets/img/mypict.jpg" class="img-fluid shadow rounded-circle" alt="Picture of me">
             </div>
-            <div class="col-6 mx-auto">
-                <hr>
-                <br>
-                Name: Teemu Sekki <br>
-                Born: 1980 <br>
-                Live: Jyväskylä Central Finland<br><hr>
-                Some recent projects...<br><br>
-                <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/ca-solar-panel-maps/">
-                    Solar panel school project Plotly animated maps (still on procces)
-                </a><br>
-                <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/SolDat/">
-                    Solar panel school project (still on procces)
-                </a><br>
-                <a class="btn btn-dark shadow m-1" href="https://github.com/temppase/synthWow">
-                    Juce synt project (still on procces)
-                </a><br>
-                <a class="btn btn-dark shadow m-1" href="https://github.com/temppase/Diary">
-                    Link to diary app repo
-                </a><br>
-                <a class="btn btn-dark shadow m-1" href="https://github.com/temppase/Time">
-                    Link to timer app repo
-                </a>
-                <hr>
+            <br>
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 text-center m-5">
+                    <p>  
+                        I am quite multi-talented and have 
+                        worked as well in several different fields. 
+                        Usually I try to work with a pretty relaxed attitude but do my best.
+                    </p>
+                    <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/MongoDbTest/">
+                            Link to MongoDb test project
+                        </a>
+                    <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/TodoApp/">
+                            Blazor ToDo test project
+                        </a>
+                </div>
+                <div class="col-lg-4"></div>
             </div>
+    <!-- Footer -->
+            <div class="row py-5 text-center footer">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <p>Copyright 2020 - <span id="year">TEXT</span> Teemu Sekki - All Rights Reserved.</p>
+                        <p>Contacts: </p>
+                        <p>E-mail: temppase[a]gmail.com</p>
+                        <p>Phone: +358 40 467 0196</p>
+                    </div>
+                    <div class="col-lg-4">
 
-         </div>
-         <br>
-
-        <div class="container text-center" style="padding: 9%;">
-            <p>  
-                I am quite multi-talented and have 
-                worked as well in several different fields. 
-                Usually I try to work with a pretty relaxed attitude but do my best.
-            </p>
-            <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/MongoDbTest/">
-                    Link to MongoDb test project
-                </a>
-            <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/TodoApp/">
-                    Blazor ToDo test project
-                </a>
-        </div>
- 
-           <div class="jumbotron text-center bg-secondary font-weight-bold" style="margin-bottom:0; margin-top: 2%;">
-                
-            <p>Copyright 2020 - <span id="year">TEXT</span> Teemu Sekki - All Rights Reserved.</p>
-            <p>Contacts: </p>
-            <p>E-mail: temppase[a]gmail.com</p>
-            <p>Phone: +358 40 467 0196</p>
-        </div>
+                    </div>
+            </div>
         </main>
     </body>
 </html>

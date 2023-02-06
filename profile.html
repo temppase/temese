@@ -9,6 +9,7 @@
         <meta name="author" content="Teemu Sekki">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -20,63 +21,84 @@
         
     <body style="background-color: lightgrey;">
         <main> 
-            <div class="jumbotron jumbotron-fluid bg-dark text-muted text-center" style="margin-bottom:0">
-                <h2>
-                    Profile
-                </h2>
-                <br>
-                <p>Something about me...</p>
+            <!-- Header -->
+            <div class="bg-img">
+                <div class="overlay">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 text-center text-white font-weight-bold m-5">
+                            <h2 class="mt-5">
+                                Profile
+                            </h2>
+                            <br>
+                            <p>
+                                Something about me...
+                            </p>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
 
-            </div>                        
-            <nav class="navbar navbar-expand-sm bg-dark sticky-top shadow navbar-dark">
-                
-                <a class="navbar-brand" href="index.html"><img class="rounded-circle" alt="logo" src="assets/img/avatar.jpg" style="width:40px;">
-                     Home
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-sm bg-dark fixed-top shadow navbar-dark">
+                <a class="navbar-brand" href="index.html"><img class="rounded-circle" alt="logo" src="assets/img/avatar.jpg" style="width:40px">
+                    Home
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a class="nav-link" href="profile.html">Profile</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="education.html">Education</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="experience.html">Experience</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="hobbies.html">Hobbies</a>
-                      </li>
-                  </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                    </li>
+                </ul>
                 </div>  
             </nav>
 
-            <div class="container text-center" style="padding: 10%;">
-                I am a humorous creative person who also has analytical talent. 
-                Music has been a kind of breathing hole in my life and I have studied it to some extent. 
-                I record music with a hobby in mind at home in the studio and I like to compose my own music more than play music composed by others. 
-                Sometimes I've arranged other people's songs in my own way. <br><br>
-                I also read books whenever I have time and in recent years I have read a lot of works by Umberto Eco and Kurt Vonnegut. <br><br>
-                I also try to take care of my condition, although in recent years I have had to restrain the sport a bit due to overwork. 
-                Currently, Nordic walking has been a very functional hobby. 
-                I also like to hike a lot in nature and visit campfire sheds or huts. <br>
-                <br>
-                <img src="assets/img/telakanava.jpg" class="img-fluid shadow rounded" alt="Telakanava">
-                <p style="font-style: italic;">Picture captured by my Nokia 808 pure view: Telakanava near Savonlinna</p>
-                
-            </div>
-         </div>
+            <div class="row">
+                <div class="col-lg-3">
 
-           <div class="jumbotron text-center bg-secondary font-weight-bold" style="margin-bottom:0">
-                
-            <p>Copyright 2020 - <span id="year">TEXT</span> Teemu Sekki - All Rights Reserved.</p>
-            <p>Contacts: </p>
-            <p>E-mail: temppase[a]gmail.com</p>
-            <p>Phone: +358 40 467 0196</p>
-        </div>
+                </div>
+                <div class="col-lg-6 text-center m-5">
+                    I am a humorous creative person who also has analytical talent. 
+                    Music has been a kind of breathing hole in my life and I have studied it to some extent. 
+                    I record music with a hobby in mind at home in the studio and I like to compose my own music more than play music composed by others. 
+                    Sometimes I've arranged other people's songs in my own way. <br><br>
+                    I also read books whenever I have time and in recent years I have read a lot of works by Umberto Eco and Kurt Vonnegut. <br><br>
+                    I also try to take care of my condition, although in recent years I have had to restrain the sport a bit due to overwork. 
+                    Currently, Nordic walking has been a very functional hobby. 
+                    I also like to hike a lot in nature and visit campfire sheds or huts. <br>
+                    <br>
+                    <img src="assets/img/telakanava.jpg" class="img-fluid shadow rounded" alt="Telakanava">
+                    <p style="font-style: italic;">Picture captured by my Nokia 808 pure view: Telakanava near Savonlinna</p>
+                    
+                </div>
+                <div class="col-lg-3">
+                    
+                </div>
+            </div>
+            
+
+         <div class="row py-5 text-center footer">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <p>Copyright 2020 - <span id="year">TEXT</span> Teemu Sekki - All Rights Reserved.</p>
+                <p>Contacts: </p>
+                <p>E-mail: temppase[a]gmail.com</p>
+                <p>Phone: +358 40 467 0196</p>
+            </div>
+          </div>
         </main>
     </body>
 </html>
