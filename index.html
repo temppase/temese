@@ -21,83 +21,67 @@
     </head>
         
     <body class="bg-gray">
-        <main> 
-<!-- Header -->
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-sm bg-dark fixed-top shadow navbar-dark">
+                    <a class="navbar-brand" href="index.html"><img class="rounded-circle" alt="logo" src="assets/img/avatar.jpg" style="width:40px">
+                        Home
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="education.html">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experience.html">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hobbies.html">Hobbies</a>
+                        </li>
+                    </ul>
+                    </div>  
+                </nav>
+            <!-- Header -->
             <div class="bg-img">
                 <div class="overlay">
-                    <div class="row">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4 text-center text-white font-weight-bold m-5">
-                            <h2 class="mt-5">
-                                Welcome to my page
-                            </h2>
-                            <br>
-                            <p>
-                                These are my CV and portfolio pages. Mainly for job search. <br>
-                                
-                            </p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4 text-center text-white font-weight-bold m-5">
+                                <h2 class="my-5">
+                                    Welcom to my CV page
+                                </h2>
+                            </div>
+                            <div class="col-md-4"></div>
                         </div>
-                        <div class="col-md-4"></div>
                     </div>
                 </div>
             </div>
-  
-<!-- Navbar -->
-            <nav class="navbar navbar-expand-sm bg-dark fixed-top shadow navbar-dark">
-                <a class="navbar-brand" href="index.html"><img class="rounded-circle" alt="logo" src="assets/img/avatar.jpg" style="width:40px">
-                     Home
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a class="nav-link" href="profile.html">Profile</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="education.html">Education</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="experience.html">Experience</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="hobbies.html">Hobbies</a>
-                      </li>
-                  </ul>
-                </div>  
-            </nav>
+
+
+<!-- Content -->
+        <div class="container-fluid">
             <div class="row mt-5">
                 <div class="col-2"></div>
                 <div class="col-3">
                     <img src="assets/img/mypict.jpg" class="img-fluid shadow rounded-circle" alt="Picture of me">
                 </div>
-                <div class="col-6 mx-auto">
-                    <div class="col-md-4">
+                <div class="col-6">
+                    <div>
                         <hr>
                         <br>
                         Name: Teemu Sekki <br>
                         Born: 1980 <br>
                         Live: Jyväskylä Central Finland<br><hr>
-                        Some recent projects...<br><br>
+                        <a class="btn btn-secondary" href="https://github.com/temppase">GitHub</a>
+                        
                     </div>
-                    <div class="col-ld-4">
-                        <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/ca-solar-panel-maps/">
-                            Solar panel school project Plotly animated maps (still on procces)
-                        </a><br>
-                        <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/SolDat/">
-                            Solar panel school project (still on procces)
-                        </a><br>
-                        <a class="btn btn-dark shadow m-1" href="https://github.com/temppase/synthWow">
-                            Juce synt project (still on procces)
-                        </a><br>
-                        <a class="btn btn-dark shadow m-1" href="https://github.com/temppase/Diary">
-                            Link to diary app repo
-                        </a><br>
-                        <a class="btn btn-dark shadow m-1" href="https://github.com/temppase/Time">
-                            Link to timer app repo
-                        </a>
-                    </div>
+                   
 
                     <hr>
                 </div>
@@ -112,28 +96,18 @@
                         worked as well in several different fields. 
                         Usually I try to work with a pretty relaxed attitude but do my best.
                     </p>
-                    <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/MongoDbTest/">
-                            Link to MongoDb test project
-                        </a>
-                    <a class="btn btn-dark shadow m-1" href="https://temppase.github.io/TodoApp/">
-                            Blazor ToDo test project
-                        </a>
                 </div>
                 <div class="col-lg-4"></div>
             </div>
-    <!-- Footer -->
-            <div class="row py-5 text-center footer">
-                    <div class="col-lg-4"></div>
-                    <div class="col-lg-4">
-                        <p>Copyright 2020 - <span id="year">TEXT</span> Teemu Sekki - All Rights Reserved.</p>
-                        <p>Contacts: </p>
-                        <p>E-mail: temppase[a]gmail.com</p>
-                        <p>Phone: +358 40 467 0196</p>
-                    </div>
-                    <div class="col-lg-4">
-
-                    </div>
+        </div>
+        <!-- Footer -->
+        <div class="container-fluid py-5 footer">
+            <div class="col text-center">
+                <p>Copyright 2020 - <span id="year">TEXT</span> Teemu Sekki - All Rights Reserved.</p>
+                <p>Contacts: </p>
+                <p>E-mail: temppase[a]gmail.com</p>
+                <p>Phone: +358 40 467 0196</p>
             </div>
-        </main>
+        </div>
     </body>
 </html>
