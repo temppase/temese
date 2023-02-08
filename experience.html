@@ -3,8 +3,6 @@
 <html lang="fi">
     
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1.0"/>
-        <meta charset="utf-8"/>
         <meta name="description" content="Web tutorial on my page">
         <meta name="author" content="Teemu Sekki">
         <meta charset="utf-8">
@@ -14,13 +12,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="assets/js/functions.js"></script>
 
         <title>Experiences</title>
     </head>
         
     <body class="bg-gray">
-                                      <!-- Navbar -->
+      <main>
+                <!-- Navbar -->
                 <nav class="navbar navbar-expand-sm bg-dark fixed-top shadow navbar-dark">
                   <a class="navbar-brand" href="index.html"><img class="rounded-circle" alt="logo" src="assets/img/avatar.jpg" style="width:40px">
                       Home
@@ -64,52 +62,82 @@
           <!-- Content -->
 
             <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-8 text-center p-3">
-                  <h2>Work experiences</h2>
-                  <table class="table table-bordered shadow table-sm">
-                    <thead>
-                      <tr>
-                        <th>Place</th>
-                        <th>Time</th>
-                        <th>Details</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Avtake oy</td>
-                        <td>2021</td>
-                        <td style="font-style: italic;">Licensing and Admin app projects</td>
-                      </tr>
-                      <tr>
-                        <td>Avecom Media oy</td>
-                        <td>2020</td>
-                        <td style="font-style: italic;"><a class="btn btn-dark" href="https://temppase.github.io/Blazor-Erps-Communication/">Link to project description</a> </td>
-                      </tr>
-                      <tr>
-                        <td>Jyväskylän kaupunki</td>
-                        <td>2017</td>
-                        <td style="font-style: italic;">8 months maintenance work: Repairing, office move, painting and hone old furnitures </td>
-                      </tr>
-                      <tr>
-                        <td>Jamilahden opisto</td>
-                        <td>2015</td>
-                        <td style="font-style: italic;">5 months of music guidance and schooling assistance for immigrants. A little also maintenance tasks: The main job was to direct immigrants to music. In addition, I spent a few hours learning the language as an assistant and as a caretaker in various assignments. I also put the former employee’s former computer to work.</td>
-                      </tr>
-                      <tr>
-                        <td>Avecom Media oy</td>
-                        <td>2011</td>
-                        <td style="font-style: italic;">Years of sales work and customer service. In addition, I stacked and installed computer workstations for video editing and streaming</td>
-                      </tr>
-                    </tbody>
-                  </table>
+              <div class="row p-3">
+                <div class="col-12">
+                  <h2 class="p-3">Work experiences</h2>
                 </div>
-                <div class="col-lg-4">
-                  <h5 class="py-5">
+                  
+                  <div class="col-lg-2">
+                    <div class="card">
+                      <div class="card-body bg-light-gray">
+                        <h5 class="card-title">Avtake Oy</h5>
+                        <p class="card-text">
+                          2021<hr>
+                          Licensing and admin app's
+                        </p>
+                        <a href="https://www.avtake.com/" class="btn btn-primary">Check out the page</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2">
+                    <div class="card">
+                      <div class="card-body bg-light-gray">
+                        <h5 class="card-title">Avecom Media Oy</h5>
+                        <p class="card-text">
+                          2020<hr>
+                          <a class="btn btn-dark" href="https://temppase.github.io/Blazor-Erps-Communication/">Link to project description</a><br>
+                          (Company name have been changed.)
+                        </p>
+                        <a href="https://avecom.suomilammi.fi/" class="btn btn-primary">Check out the page</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2">
+                    <div class="card">
+                      <div class="card-body bg-light-gray">
+                        <h5 class="card-title">Jyväskylän kaupunki</h5>
+                        <p class="card-text">
+                          2017<hr>
+                          8 months maintenance work: Repairing, office move, painting and hone old furnitures
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card">
+                      <div class="card-body bg-light-gray">
+                        <h5 class="card-title">Jamilahden Opisto</h5>
+                        <p class="card-text">
+                          2015<hr>
+                          5 months of music guidance and schooling assistance for immigrants. A little also maintenance tasks: 
+                          The main job was to direct immigrants to music. In addition, I spent a few hours learning the language as an assistant 
+                          and as a caretaker in various assignments. I also put the former employee’s former computer to work.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card">
+                      <div class="card-body bg-light-gray">
+                        <h5 class="card-title">Avecom Media Oy</h5>
+                        <p class="card-text">
+                          2011<hr>
+                          Years of sales work and customer service. In addition, I stacked and installed computer workstations for 
+                          video editing and streaming<br>
+                          (Company name have been changed.)
+                        </p>
+                        <a href="https://avecom.suomilammi.fi/" class="btn btn-primary">Check out the page</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center">
+                  <hr>
+                  <h5 class="bg-heading rounded p-3">
                     Music
                 </h5>
-             
-                <div class="text-center p-3">
+             <hr>
+                <div class="py-3">
                   In music, I have been dubbed a semi-professional. 
                   I have studied music theory and played in various ensembles and bands. 
                   My main instrument is an electric guitar but I can play other instruments a bit like piano, bass and drums. 
@@ -219,33 +247,42 @@
                       </div>
                       </div>
                 </div>
-                <div class="card">
-                  <div class="card-header text-center" id="headingThree"  style="background-color: #bbc;">
-                    <h5 class="mb-0">
-                        Video and images
-                    </h5>
+                <div class="row">
+
+                  <div class="col-12">
+                    <h5 class="p-3 bg-heading ">
+                      Video and images
+                  </h5>
                   </div>
-                    <div class="card-body text-center"  style="background-color: #bbb; padding: 10%;">
-                      I have experience in photography and image editing and video shooting and editing are also familiar. 
-                      Lately, I may not have done so much about them other than with a phone camera. 
-                      Mainly I have used free applications for editing when it is nothing but a hobby but I am also somewhat familiar with paid ones.
-                      <br><br>
-                      <b>Some own demonstration pictures...</b>
-                      <div class="row my-5">
+                  <div class="col-lg-3"></div>
+                  <div class="col-lg-6 text-center">
+
+                  <p>
+                    I have experience in photography and image editing and video shooting and editing are also familiar. 
+                    Lately, I may not have done so much about them other than with a phone camera. 
+                    Mainly I have used free applications for editing when it is nothing but a hobby but I am also somewhat familiar with paid ones.
+                  </p>
+                  </div>
+                </div>
+
+                      
+
+                    <div class="row my-5">
+                      <div class="col-lg-12 p-3 text-center">
+                        <b>Some own demonstration pictures...</b>
+                      </div>
+
                         <div class="col-lg-6">
                           <img src="assets/img/kol1.jpg" class="img-fluid shadow rounded" alt="Collase-1">
                         </div>
                         <div class="col-lg-6">
                           <img src="assets/img/kol2.jpg" class="img-fluid shadow rounded" alt="Collase-2">
                         </div>
-                      </div>
-                      <div>
                         <div class="col-lg-12">
                           <img src="assets/img/darkskies.jpg" class="img-fluid shadow rounded" alt="Dark Skies">
                         </div>
-                      </div>
                     </div>
-                </div>
+                
                 <!-- Footer -->
                 <div class="container-fluid py-5 footer">
                   <div class="col text-center">
@@ -255,5 +292,6 @@
                       <p>Phone: +358 40 467 0196</p>
                   </div>
                 </div>
+      </main>
     </body>
 </html>

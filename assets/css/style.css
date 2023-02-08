@@ -4,6 +4,9 @@
 .bg-light-gray{
     background-color: #bbb;
 }
+.bg-heading{
+    background-color: #bbc;
+}
 .bg-img {
     background-image: url("../img/telakanava.jpg");
     background-size: cover;
