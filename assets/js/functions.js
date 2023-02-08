@@ -6,5 +6,4 @@ let currentYear = (new Date).getFullYear();
 
 $(document).ready(function() {
     $("#year").text( currentYear );
-    $("#music").load("music.txt");
 });
